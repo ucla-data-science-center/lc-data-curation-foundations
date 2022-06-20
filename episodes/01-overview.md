@@ -1,7 +1,7 @@
 ---
-title: "Introducing Data Curation for Reproducibility"
-teaching: 
-exercises: 
+title: "Overview of Scientific Reproducibility"
+teaching: 30
+exercises: 15
 questions:
 - "How is 'reproducibility' defined?"
 - "Why is scientific reproducibility important?"
