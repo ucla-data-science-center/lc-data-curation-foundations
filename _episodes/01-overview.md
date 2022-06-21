@@ -70,30 +70,30 @@ The following challenge offers an opportunity to apply the definitions of the th
 >
 > Read the descriptions of real-life instances in which published research findings were discovered to be non-reproducible. Based on the definitions of reproducibility types, determine which—**empirical**, **statistical**, or **computational**—applies to the scenario in each description.
 > 
-> **Scenario 1: Slicing and Dicing Food Data**
+> **Scenario 1: Slicing and Dicing Food Data**  
 > If you believe that shopping hungry compels you to make poor food purchasing decisions or that the size of your plate can influence how much you eat, you have a single university-based food lab to thank. Over the past three decades, the principal investigator (PI) of this renowned lab had over 250 articles published describing results of studies of food-related behavior, many of which have entered the popular imagination through mainstream media outlets. Some of these studies informed the USDA’s Center for Nutrition Policy and Promotion, which issues dietary guidance for the National School Lunch Program, Supplemental Nutrition Assistance Program (SNAP), and other federally sponsored nutrition programs.
 >
 > A closer look at the lab’s research by other scientists and statisticians, however, revealed considerable problems that would prevent them from repeating the analyses of published works. What they discovered was rampant p-hacking, a dubious practice in which statistical tests are run repeatedly on a dataset in an attempt to yield statistically significant results, irrespective of the research question or hypothesis—if any—at hand.  Beyond p-hacking, scientists also found calculation errors including unfeasible means and standard deviations. This was, perhaps, no accident, as evidenced by an email from the PI to a lab member that instructed her to dig through a dataset to find significant relationships among variables, writing, “I don’t think I’ve ever done an interesting study where the data ‘came out’ the first time I looked at it.” A few years later after these discoveries were made, several of the PI’s publications were retracted and an academic misconduct investigation prompted his removal from teaching and research duties at the university.
 >
-> **Scenario 2:  Excel Fail**
+> **Scenario 2:  Excel Fail**  
 > In 2013, a graduate student at the University of Massachusetts Amherst was assigned a class project to select an article from an economics journal and attempt to reproduce its findings. After several attempts, the student was unsuccessful, assuming that he had made some mistake in his own analysis. Even after obtaining the underlying analysis data from the well-respected authors themselves, he was still unable to reproduce the results. Upon closer inspection of the spreadsheet of data he was given, however, he found a critical discovery that would shock the entire field of economics.
 >
 > That discovery was a basic Excel miscalculation, one that tested the veracity of the findings from the influential article that was cited over 4,000 times and used by governments to justify specific austerity measures to address economic crises. While corrections to the analysis yielded different results (which the student later published) from those in the original article, the authors insisted that these differences did not change their central findings. They did, however, acknowledge their error in a public statement: “It is sobering that such an error slipped into one of our papers despite our best efforts to be consistently careful. We will redouble our efforts to avoid such errors in the future.”
 >
-> **Scenario 3:  Power(less) Pose**
+> **Scenario 3:  Power(less) Pose**  
 > With over 60,000 online views, one of the most popular TED Talks convinced many people that “power posing” induces an actual sense of increased power. The presenter, a social psychologist, shared the results of a study she published along with two of her colleagues that investigated the physiological and behavioral effects of posing in open, expansive postures: wide stance, hands on hips. The authors found that embodiments of power (i.e., power poses) cause a decrease of cortisol (the stress hormone) while increasing testosterone and risk tolerance. Based on these observations, they concluded that power posing manifests actual feelings of power.
 >
 > After other scientists repeated the study and failed to yield comparable results that could demonstrate the robustness of the original power pose findings, some in the scientific community cast doubt on the soundness of the original study design and protocols. One of the most vocal skeptics was one of the co-authors of the original study, who later announced that “I do not believe that ‘power pose’ effects are real.” Aside from the small sample size and a questionable participant selection process, he explained that the experiment involved male and female participants (not distinguished by gender) who performed risk-taking tasks and subsequently were informed that they had won small cash prizes. Because the act of winning increases testosterone levels, there was no way to determine whether the increase in testosterone was an effect of the power pose as the paper concluded, or if it was merely an effect of winning. Despite this controversy, studies on power posing continue--with varying results.
 >
 > > ## Solution
 > >
-> > **Scenario 1 (Slicing and Dicing Food Data):  Statistical Reproducibility**
+> > **Scenario 1 (Slicing and Dicing Food Data):  Statistical Reproducibility**  
 > > In this scenario, research results were generated using an inappropriate, dubious statistical technique. Statistical analyses were also rife with errors and miscalculations, which would make it impossible for anyone to arrive at the same results. This example demonstrates lack of *statistical reproducibility*.
 > > 
-> > **Scenario 2 (Excel Fail):  Computational Reproducibility**
+> > **Scenario 2 (Excel Fail):  Computational Reproducibility**  
 > > In this scenario, the student attempted to reproduce the findings in a journal article by using the authors’ own data used to generate the results reported in the article. Unfortunately, Herndon was unable to do so, which demonstrates a failure to *computationally reproduce* the published results.
 > >
-> > **Scenario 3 (Power(less) Pose):  Empirical Reproducibility**
+> > **Scenario 3 (Power(less) Pose):  Empirical Reproducibility**  
 > > In this scenario, researchers repeated the steps of the original power pose experiment but arrived at different results. Problems with the study design and protocols rendered the original power pose study *empirically irreproducible*.
 > {: .solution}
 {: .challenge}
@@ -120,12 +120,13 @@ The reasons for irreproducibility are plenty, but the issues that appear quite o
 
 > ## Yet Another Term: “Preproducibility”
 >
-> In a 2018 article published in the journal Nature, Phillip Stark offered another term for consideration for use in discussions of reproducibility:  preproducibility.  He wrote, “An experiment or analysis is preproducible if it has been described in adequate detail for others to undertake it.  Preproducibility is a prerequisite for reproducibility…” (p. 613).  The question of reproducibility, according to Stark, is irrelevant if documentation of research methods and protocols are insufficient or unavailable.  Stark declared his unequivocal stance on the subject, declining to review any manuscript that is not preproducible.   
+> In a 2018 article published in the journal Nature, Phillip Stark offered another term for consideration for use in discussions of reproducibility:  **preproducibility**.  He wrote, “An experiment or analysis is preproducible if it has been described in adequate detail for others to undertake it.  Preproducibility is a prerequisite for reproducibility…” (p. 613).  The question of reproducibility, according to Stark, is irrelevant if documentation of research methods and protocols are insufficient or unavailable.  Stark declared his unequivocal stance on the subject, declining to review any manuscript that is not preproducible.   
 > 
 > Read the article that introduces the concept of preproducibility here:<br>
 > **Stark, P. B. (2018). Before reproducibility must come preproducibility. *Nature, 557*(7707), 613–613. [https://doi.org/10.1038/d41586-018-05256-0](https://doi.org/10.1038/d41586-018-05256-0)**
 {: .callout}
 
+<br>
 Perhaps with the so-called reproducibility crisis in mind, various research stakeholders have taken steps to promote and protect the integrity of scientific research by issuing policies and/or guidelines that require researchers to perform data management tasks to ensure data are accessible and usable. 
 
 ### Funding Agencies
