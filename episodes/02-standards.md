@@ -111,11 +111,12 @@ The other important concept in data curation is **reuse**.  Motivations for reus
 > **Thing 10: Review.** A series of managed activities needed to ensure continued access to and functionality of the research compendium and its components for as long as necessary are performed regularly.
 {: .callout}
 
+<br>
 So far, Lesson 1 has been theoretical, but it does ground our understanding of reproducibility.  Knowing what makes research reproducible enables us to recognize research that is not reproducible and consider the harms that can result. The next challenge revisits the scenarios from the [Lesson 1, Episode 1]({{ page.root}}/01-overview/#reproducibility-reproducibility-reproducibility) challenge to get us thinking about the impact of irreproducibility.
 
 > ## The Impact of Irreproducibility
 >
-> Consider the three scenarios from the exercise in [Episode 1 (“Reproducibility, Reproducibility, Reproducibility”)]({{ page.root}}/01-overview/#reproducibility-reproducibility-reproducibility).  Provide responses to the following questions about each scenario.
+> Consider again the three scenarios from the exercise in [Episode 1 (“Reproducibility, Reproducibility, Reproducibility”)]({{ page.root}}/01-overview/#reproducibility-reproducibility-reproducibility).  Provide responses to the following questions about each scenario.
 >
 > - **What were the causes of non-reproducibility?**
 - **What may have been some consequences of the discovery that the study was not reproducible?**
@@ -131,7 +132,8 @@ So far, Lesson 1 has been theoretical, but it does ground our understanding of r
 > {: .solution}
 {: .challenge}
 
-See the next lesson, [Lesson 2: Curating for Reproducibility](), to learn how quality standards as they support reproducibility are translated into the specific curation actions that are applied to the research compendium and its component parts.
+<br>
+See the next lesson in the Curating for Reproducibility Curriculum, [Lesson 2: Curating for Reproducibility](), to learn how quality standards as they support reproducibility are translated into the specific curation actions that are applied to the research compendium and its component parts.
 
 ## Challenges to Reproducibility
 
@@ -153,11 +155,14 @@ Despite having the same data, code, and other research materials used by the ori
 
 Reproducible research requires the availability of code written using literate programming and includes non-executable comments indicating the function of code blocks; datasets accompanied by codebooks or data dictionaries that define each variable and its categorical value codes; readme files that describe the process for executing the analysis; and any other materials necessary to independently execute the analysis to generate outputs identical to the original results.  Preparing these materials may take a great deal of time and effort that researchers just might not have, especially when there is little or no incentive to do so. 
 
-Are these challenges insurmountable?  Not always.  In many cases, strategies exist that account for these challenges to make it possible to still uphold reproducibility standards.  In [Lesson 4: Compendium Packaging]() and throughout the curriculum, you will learn about these strategies and how to apply them to special cases involving technical complexities, sensitive human subjects data, and restricted proprietary data.
+<br>
+Are these challenges insurmountable?  Not always.  In many cases, strategies exist that account for these challenges to make it possible to still uphold reproducibility standards.  In [Lesson 4: Compendium Packaging]() and throughout the Curating for Reproducibility Curriculum, you will learn about these strategies and how to apply them to special cases involving technical complexities, sensitive human subjects data, and restricted proprietary data.
 
 > ## A Reproducibility Dare
 >
-> When Nicolas Rougier and Konrad Hinsen, the originators of the [Ten Years Reproducibility Challenge](https://rescience.github.io/ten-years/), issued an invitation to researchers to find the code they used to generate results presented in any article published before 2010 and then use the unedited code to reproduce the results, they suspected that few would succeed.  
+> When Nicolas Rougier and Konrad Hinsen, the originators of the [Ten Years Reproducibility Challenge](https://rescience.github.io/ten-years/), issued an invitation to researchers to find the code they used to generate results presented in any article published before 2010 and then use the unedited code to reproduce the results, they suspected that few would succeed. 
+> 
+> ![image description]({{ page.root }}/fig/image.jpg "alt text")
 >
 > Ten years is considered an eternity when it comes to the longevity of computations. Rapidly changing technologies render hardware and software obsolete, and evolving computational approaches relegate once novel programming languages to outdated status--in significantly less time than ten years. The 35 entrants confirmed this to be the case, having to resort to using hardware emulators or purchases from online vendors to obtain old hardware, reaching into the depths of memory to revive fading programming language fluency, and confronting poor coding practices that have since been remedied by subsequent years of experience. The difficulty of the challenge cannot be overstated.
 >
