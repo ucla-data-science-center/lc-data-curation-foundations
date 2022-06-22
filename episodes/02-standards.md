@@ -75,7 +75,7 @@ The first known mention of the research compendium concept appeared in an articl
 
 To put it more simply for this Curating for Reproducibility curriculum, **we refer to the research compendium as the collection of the research artifacts necessary to independently understand and repeat the entirety of the analysis workflow from data processing and transformation to producing results**.
 
-![Research compendium components]({{ page.root }}/fig/02-compendium.png "Research compendium components")
+<img src="/fig/02-compendium.png" alt="Research compendium components" width="350" title="Research Compendium components">
 
 At a minimum, the research compendium, which may also referred to as reproducibility file bundle or reproducibility package as we define it, contains the following research artifacts:
 
@@ -104,18 +104,9 @@ The other important concept in data curation is **reuse**.  Motivations for reus
 
 > ## 10 Things for Curating Reproducible and FAIR Research
 > 
-> The measures used to determine the quality of a research compendium intended to be used to reproduce reported results are described in the “10 Things for Curating Reproducible and FAIR Research,” summarized below.  
->
-> **Thing 1: Completeness.** The research compendium contains all of the objects needed to reproduce a predefined outcome.  
-> **Thing 2: Organization.** It is easy to understand and keep track of the various objects in the research compendium and their relationship over time.  
-> **Thing 3: Economy.** Fewer extraneous objects in the compendium mean fewer things that can break and require less maintenance over time.  
-> **Thing 4: Transparency.** The research compendium provides full disclosure of the research process that produced the scientific claim.  
-> **Thing 5: Documentation.** Information describing compendium objects is provided in enough detail to enable independent understanding and use of the compendium.  
-> **Thing 6: Access.** It is clear who can use what, how, and under what conditions, with open access preferred.  
-> **Thing 7: Provenance.** The origin of the components of the research compendium and how each has changed over time is evident.  
-> **Thing 8: Metadata.** Information about the research compendium and its components is embedded in a standardized, machine-readable code.  
-> **Thing 9: Automation.** As much as possible, the computational workflow is script- or workflow-based so that the workflow can be re-executed using minimal actions.  
-> **Thing 10: Review.** A series of managed activities needed to ensure continued access to and functionality of the research compendium and its components for as long as necessary are performed regularly.
+> The measures used to determine the quality of a research compendium intended to be used to reproduce reported results are described in the ***10 Things for Curating Reproducible and FAIR Research***.  The 10 Things, summarized below are the output of the Research Data Alliance's CURE-FAIR Working Group. This international community of information professionals, researchers, funding agencies, publishers, and others interested in promoting reproducibility practices worked together to identify and describe specific requirements for making research reproducible. 
+> <img src="/fig/02-10things.png" alt="10 Things for Curating Reproducible and FAIR Research" width="1000" title="10 Things for Curating Reproducible and FAIR Research">
+> CURE-FAIR Working Group. (2022). 10 things for curating reproducible and FAIR research. Research Data Alliance. [https://doi.org/10.15497/RDA00074](https://doi.org/10.15497/RDA00074)
 {: .callout}
 
 Knowing what makes research reproducible allows us to recognize research that is not reproducible. The next challenge revisits the scenarios from the [challenge in the previous episode]({{ page.root}}/01-overview/#reproducibility-reproducibility-reproducibility) to get us thinking about the causes of irreproducibility and their potential consequences.
