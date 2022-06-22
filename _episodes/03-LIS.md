@@ -16,7 +16,7 @@ keypoints:
 - "There are various models of data curation for implementation services. It is important to think about what a service might look like at your organization so that you can articulate your ideas effectively when given the opportunity."
 ---
 
-There are several stakeholders that contribute to reproducibility.  The researcher who incorporates data management activities in their research workflows, the funding agencies who mandate data sharing, the repository that provides a platform for making the data available, and the journal editor who checks that authors provide  information on how to access their data all play a role in promoting reproducibility.  This episode explores why and how library and information science (LIS) professionals are also an important part of this endeavor.
+There are several stakeholders that contribute to reproducibility.  The researcher who incorporates data management activities in their research workflows, the funding agencies who mandate data sharing, the repository that provides a platform for making the data available, and the journal editor who checks that authors provide  information on how to access their data all play a role in promoting reproducibility.  This episode explores why library and information science (LIS) professionals are also an important part of this endeavor and how they can support it.
 
 ## The Role of the LIS Professional
 
@@ -33,6 +33,19 @@ The **“data savvy librarian”** is one who can execute data curation for repr
 The diagram below illustrates how various areas of skills and knowledge apply to primary components of data curation for reproducibility as they are defined by the Data Quality Review Framework (see Lesson 2 for an in depth discussion of each component of the Data Quality Review Framework).
 
 ![Diagram of skills and knowledge necessary to perform data curation for reproducibility tasks]({{ page.root }}/fig/03-cure-skills.png "data savvy librarian skillsets")
+
+**Read more about the data savvy librarian and their role in supporting scientific reproducibility:**  
+Barbaro, A. (2016). On the importance of being a data-savvy librarian. *JEAHIL, 12*(1), 25–27. [http://ojs.eahil.eu/ojs/index.php/JEAHIL/article/view/100/104](http://ojs.eahil.eu/ojs/index.php/JEAHIL/article/view/100/104)  
+
+Burton, M., Lyon, L., Erdmann, C., & Tijerina, B. (2018). Shifting to data savvy: The future of data science in libraries. University of Pittsburgh. [http://d-scholarship.pitt.edu/id/eprint/33891](http://d-scholarship.pitt.edu/id/eprint/33891)  
+
+Kouper, I., Fear, K., Ishida, M., Kollen, C., & Williams, S. C. (2017). Research data services maturity in academic libraries. In *Curating research data: Practical strategies for your digital repository* (pp. 153–170). Association of College and Research Libraries. [https://doi.library.ubc.ca/10.14288/1.0343479](https://doi.org/10.14288/1.0343479)  
+
+Lyon, L., Jeng, W., & Mattern, E. (2017). Research transparency: A preliminary study of disciplinary conceptualisation, drivers, tools and support services. *International Journal of Digital Curation, 12*(1), 46. [https://doi.org/10.2218/ijdc.v12i1.530](https://doi.org/10.2218/ijdc.v12i1.530) 
+
+Pryor, G., & Donnelly, M. (2009). Skilling up to do data: Whose role, whose responsibility, whose career? *International Journal of Digital Curation, 4*(2), 158–170. [https://doi.org/10.2218/ijdc.v4i2.105](https://doi.org/10.2218/ijdc.v4i2.105) 
+
+Sawchuk, S. L., & Khair, S. (2021). Computational reproducibility: A practical framework for data curators. *Journal of eScience Librarianship, 10*(3), 1206. [https://doi.org/10.7191/jeslib.2021.1206](https://doi.org/10.7191/jeslib.2021.1206)
 
 > ##  CuRe Career Pathways
 >

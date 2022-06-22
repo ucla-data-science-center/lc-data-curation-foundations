@@ -15,7 +15,7 @@ keypoints:
 - "Curating for reproducibility goes beyond curating data; it applies curation actions to all of the research artifacts within the research compendium to ensure it is independently understandable for informed reuse."
 - "Despite calls for reproducible research, challenges exist that can make it difficult to achieve this standard."
 ---
-In the previous episode, we established our working definition of “reproducibility” as being able to reproduce published results given the same data, code, and other research artifacts originally used to execute the computational workflow.  In this episode, we go beyond the definition to explore the standards by which we evaluate reproducibility.
+In the previous episode, we established our working definition of “reproducibility” as being able to reproduce published results given the same data, code, and other research artifacts originally used to execute the computational workflow.  In this episode, we go beyond the definition of reproducibility to explore the standards by which we *evaluate* reproducibility.
 
 ## Reproducibility Standards
 
@@ -24,6 +24,10 @@ In 1995, the Harvard University professor of political science, Gary King, propo
 > The *replication standard* holds that sufficient information exists with which to understand, evaluate, and build upon a prior work if a third party could replicate the results without any additional information from the author ([p. 444](https://doi.org/10.2307/420301)). 
 
 Accessibility and usability of the materials necessary to reproduce reported research results without having to resort to intervention from the original author is central to King’s standard, and, as you will learn, are at the core of curation for reproducibility practices.
+<br>  
+**Read King's seminal article here:**   
+King, G. (1995). Replication, replication. *PS: Political Science & Politics, 28*(3), 444–452. [https://doi.org/10.2307/420301](https://doi.org/10.2307/420301)
+
 
 > ## FAIR(eR) Principles
 >
@@ -31,44 +35,47 @@ Accessibility and usability of the materials necessary to reproduce reported res
 >
 > In the summary of the FAIR Principles below, pay particular attention to the Reusable principle, which when thinking about reproduction as one type of reuse, aligns directly with some of the standards we uphold when curating for reproducibility.
 >
-> **Findable**<br>
-> *The data are uniquely identified and described using machine-readable metadata to enable both systems and humans to find the data in a searchable system.*<br>
-> **F1.** (Meta)data are assigned a globally unique and persistent identifier<br>
-> **F2.** Data are described with rich metadata (defined by R1 below)<br>
-> **F3.** Metadata clearly and explicitly include the identifier of the data they describe<br>
+> **Findable**  
+> *The data are uniquely identified and described using machine-readable metadata to enable both systems and humans to find the data in a searchable system.*  
+> **F1.** (Meta)data are assigned a globally unique and persistent identifier  
+> **F2.** Data are described with rich metadata (defined by R1 below)  
+> **F3.** Metadata clearly and explicitly include the identifier of the data they describe  
 > **F4.** (Meta)data are registered or indexed in a searchable resource
 >
-> **Accessible**<br>
-> *Access to the data (or descriptive metadata should the data no longer be available or require certain procedures for access) using the unique identifier assigned to the data is possible without the need for specialized tools or services.*<br>
-> **A1.** (Meta)data are retrievable by their identifier using a standardized communications protocol<br>
-> **A1.1** The protocol is open, free, and universally implementable<br>
-> **A1.2** The protocol allows for an authentication and authorisation procedure, where necessary<br>
-> **A2.** Metadata are accessible, even when the data are no longer available<br>
+> **Accessible**  
+> *Access to the data (or descriptive metadata should the data no longer be available or require certain procedures for access) using the unique identifier assigned to the data is possible without the need for specialized tools or services.*  
+> **A1.** (Meta)data are retrievable by their identifier using a standardized communications protocol  
+> **A1.1** The protocol is open, free, and universally implementable  
+> **A1.2** The protocol allows for an authentication and authorisation procedure, where necessary  
+> **A2.** Metadata are accessible, even when the data are no longer available  
 >
-> **Interoperable**<br>
-> *The data and descriptive metadata are standardized to enable exchange and interpretation of data by different people and systems.*<br>
-> **I1.** (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.<br>
-> **I2.** (Meta)data use vocabularies that follow FAIR principles<br>
+> **Interoperable**  
+> *The data and descriptive metadata are standardized to enable exchange and interpretation of data by different people and systems.*  
+> **I1.** (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.  
+> **I2.** (Meta)data use vocabularies that follow FAIR principles  
 > **I3.** (Meta)data include qualified references to other (meta)data
 >
-> **Reusable**<br>
-> *The data are presented with enough detail that it is clear to designated users the origins of the data, how to interpret and use the data appropriately, and by whom and for what purposes the data may be used.*<br>
-> **R1.** (Meta)data are richly described with a plurality of accurate and relevant attributes<br>
-> **R1.1.** (Meta)data are released with a clear and accessible data usage license<br>
-> **R1.2.** (Meta)data are associated with detailed provenance<br>
-> **R1.3.** (Meta)data meet domain-relevant community standards<br>
+> **Reusable**  
+> *The data are presented with enough detail that it is clear to designated users the origins of the data, how to interpret and use the data appropriately, and by whom and for what purposes the data may be used.*  
+> **R1.** (Meta)data are richly described with a plurality of accurate and relevant attributes  
+> **R1.1.** (Meta)data are released with a clear and accessible data usage license  
+> **R1.2.** (Meta)data are associated with detailed provenance  
+> **R1.3.** (Meta)data meet domain-relevant community standards  
+> 
+> 
+> **Read more about the FAIR Principles here:**  
+> GO FAIR. (n.d.). *FAIR Principles*. GO FAIR. Retrieved May 6, 2022, from [https://www.go-fair.org/fair-principles/](https://www.go-fair.org/fair-principles/)
 >
-> Read more about the FAIR Principles here:<br>
-> **GO FAIR. (n.d.). *FAIR Principles*. GO FAIR. Retrieved May 6, 2022, from [https://www.go-fair.org/fair-principles/](https://www.go-fair.org/fair-principles/)**
->
-> **Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., da Silva Santos, L. B., Bourne, P. E., Bouwman, J., Brookes, A. J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds, S., Evelo, C. T., Finkers, R., … Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. *Scientific Data, 3*, 160018. [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)**
+> Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., da Silva Santos, L. B., Bourne, P. E., Bouwman, J., Brookes, A. J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds, S., Evelo, C. T., Finkers, R., … Mons, B. (2016). The FAIR Guiding Principles for scientific data management and stewardship. *Scientific Data, 3*, 160018. [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)
 {: .callout}
 
 ## The Research Compendium
 
-The first known mention of the research compendium concept appeared in an article by Gentleman and Lang (2007), who proposed the compendium as a “new mechanism that combines text, data, and auxiliary software into a distributable and executable unit” ([p. 2](https://doi.org/10.1198/106186007X178663)). Noting the challenges of assembling the artifacts needed to re-run a statistical analysis to computationally reproduce published research results, Gentleman and Lang argued the need to capture the steps of the analytical workflow in a compendium containing one or more “dynamic documents” that encapsulate the description of the analysis (manuscript and documentation), the analysis inputs (data and code), and the computing environment (computational and analytical software).
+The first known mention of the research compendium concept appeared in an article by [Gentleman and Lang (2007)](https://doi.org/10.1198/106186007X178663), who proposed the compendium as a “new mechanism that combines text, data, and auxiliary software into a distributable and executable unit” (p. 2). Noting the challenges of assembling the artifacts needed to re-run a statistical analysis to computationally reproduce published research results, Gentleman and Lang argued the need to capture the steps of the analytical workflow in a compendium containing one or more “dynamic documents” that encapsulate the description of the analysis (manuscript and documentation), the analysis inputs (data and code), and the computing environment (computational and analytical software).
 
 To put it more simply for this Curating for Reproducibility curriculum, **we refer to the research compendium as the collection of the research artifacts necessary to independently understand and repeat the entirety of the analysis workflow from data processing and transformation to producing results**.
+
+![Research compendium components]({{ page.root }}/fig/02-compendium.png "Research compendium components")
 
 At a minimum, the research compendium, which may also referred to as reproducibility file bundle or reproducibility package as we define it, contains the following research artifacts:
 
@@ -99,20 +106,19 @@ The other important concept in data curation is **reuse**.  Motivations for reus
 > 
 > The measures used to determine the quality of a research compendium intended to be used to reproduce reported results are described in the “10 Things for Curating Reproducible and FAIR Research,” summarized below.  
 >
-> **Thing 1: Completeness.** The research compendium contains all of the objects needed to reproduce a predefined outcome.<br> 
-> **Thing 2: Organization.** It is easy to understand and keep track of the various objects in the research compendium and their relationship over time.<br> 
-> **Thing 3: Economy.** Fewer extraneous objects in the compendium mean fewer things that can break and require less maintenance over time.<br> 
-> **Thing 4: Transparency.** The research compendium provides full disclosure of the research process that produced the scientific claim.<br> 
-> **Thing 5: Documentation.** Information describing compendium objects is provided in enough detail to enable independent understanding and use of the compendium.<br> 
-> **Thing 6: Access.** It is clear who can use what, how, and under what conditions, with open access preferred.<br> 
-> **Thing 7: Provenance.** The origin of the components of the research compendium and how each has changed over time is evident.<br> 
-> **Thing 8: Metadata.** Information about the research compendium and its components is embedded in a standardized, machine-readable code.<br> 
-> **Thing 9: Automation.** As much as possible, the computational workflow is script- or workflow-based so that the workflow can be re-executed using minimal actions.<br> 
+> **Thing 1: Completeness.** The research compendium contains all of the objects needed to reproduce a predefined outcome.  
+> **Thing 2: Organization.** It is easy to understand and keep track of the various objects in the research compendium and their relationship over time.  
+> **Thing 3: Economy.** Fewer extraneous objects in the compendium mean fewer things that can break and require less maintenance over time.  
+> **Thing 4: Transparency.** The research compendium provides full disclosure of the research process that produced the scientific claim.  
+> **Thing 5: Documentation.** Information describing compendium objects is provided in enough detail to enable independent understanding and use of the compendium.  
+> **Thing 6: Access.** It is clear who can use what, how, and under what conditions, with open access preferred.  
+> **Thing 7: Provenance.** The origin of the components of the research compendium and how each has changed over time is evident.  
+> **Thing 8: Metadata.** Information about the research compendium and its components is embedded in a standardized, machine-readable code.  
+> **Thing 9: Automation.** As much as possible, the computational workflow is script- or workflow-based so that the workflow can be re-executed using minimal actions.  
 > **Thing 10: Review.** A series of managed activities needed to ensure continued access to and functionality of the research compendium and its components for as long as necessary are performed regularly.
 {: .callout}
 
-<br>
-So far, Lesson 1 has been theoretical, but it does ground our understanding of reproducibility.  Knowing what makes research reproducible enables us to recognize research that is not reproducible and consider the harms that can result. The next challenge revisits the scenarios from the [Lesson 1, Episode 1]({{ page.root}}/01-overview/#reproducibility-reproducibility-reproducibility) challenge to get us thinking about the impact of irreproducibility.
+Knowing what makes research reproducible allows us to recognize research that is not reproducible. The next challenge revisits the scenarios from the [challenge in the previous episode]({{ page.root}}/01-overview/#reproducibility-reproducibility-reproducibility) to get us thinking about the causes of irreproducibility and their potential consequences.
 
 > ## The Impact of Irreproducibility
 >
@@ -131,9 +137,6 @@ So far, Lesson 1 has been theoretical, but it does ground our understanding of r
 > > **Scenario 3 (Power(less) Pose):** The publication of the power pose research and the scrutiny it was met with happened in the midst of heated arguments among psychologists about the scientific rigor of research produced in their disciplinary domain. Some scholars in the field took umbrage against published studies that presented seemingly unlikely findings and set to work to assess the validity of these findings. What they discovered was widespread abuse of researchers’ degrees of freedom as a means of generating positive, and likely more publishable, results.  Because of the publicity it received, this research became something of a poster child of the so-called reproducibility crisis in psychology with its questionable methods and perhaps overstated positive results.  This cast widespread doubt not only on those particular research findings, but also on those from the field of psychology writ large.  Clear and comprehensive documentation and justification of research protocols used in the power pose experiments would have helped bolster the empirical reproducibility of the research claims.
 > {: .solution}
 {: .challenge}
-
-<br>
-See the next lesson in the Curating for Reproducibility Curriculum, [Lesson 2: Curating for Reproducibility](), to learn how quality standards as they support reproducibility are translated into the specific curation actions that are applied to the research compendium and its component parts.
 
 ## Challenges to Reproducibility
 
