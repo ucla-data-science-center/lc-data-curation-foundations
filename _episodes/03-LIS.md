@@ -32,7 +32,7 @@ The **“data savvy librarian”** is one who can execute data curation for repr
 
 The diagram below illustrates how various areas of skills and knowledge apply to primary components of data curation for reproducibility as they are defined by the Data Quality Review Framework (see Lesson 2 for an in depth discussion of each component of the Data Quality Review Framework).
 
-![Diagram of skills and knowledge necessary to perform data curation for reproducibility tasks]({{ page.root }}/fig/03-cure-skills.png "data savvy librarian skillsets")
+<img src="/fig/03-cure-skills.png" alt="Data savvy librarian skillsets" width="700" title="Diagram of skills and knowledge necessary to perform data curation for reproducibility tasks">
 
 **Read more about the data savvy librarian and their role in supporting scientific reproducibility:**  
 Barbaro, A. (2016). On the importance of being a data-savvy librarian. *JEAHIL, 12*(1), 25–27. [http://ojs.eahil.eu/ojs/index.php/JEAHIL/article/view/100/104](http://ojs.eahil.eu/ojs/index.php/JEAHIL/article/view/100/104)  
