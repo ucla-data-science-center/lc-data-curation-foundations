@@ -40,7 +40,7 @@ In animal studies, repeating experiments to demonstrate empirical reproducibilit
 
 Statistical reproducibility relies on the application of appropriate statistical methods to yield defensible results. Studies that suffer from statistical irreproducibility have weaknesses in the statistical methods and analysis, which precludes the possibility of repeating the study and yielding the same results.  
 
-Because of the impossibility of studying perpetually-changing conditions of the Earth’s climate system, climate scientists test the reliability of their global temperature projections using a coordinated model intercomparison strategy. With this strategy, researchers run different computational models using the same data inputs and then compare the results produced by each model.  Agreement among models demonstrates statistical reproducibility, which suggests the reliability of results. Disagreement, on the other hand, may indicate misapplication of model algorithms or problematic model design.
+Because of the impossibility of studying perpetually-changing conditions of the Earth’s climate system, climate scientists test the reliability of their global temperature projections using a coordinated model intercomparison strategy. With this strategy, researchers run different computational models using the same data inputs and then compare the results produced by each model.  Agreement among models demonstrates statistical reproducibility, which suggests the reliability of results. Disagreement, on the other hand, may indicate misapplication of model algorithms or problematic model design indicative of statistical irreproducibility.
 
 ### Computational Reproducibility
 
@@ -48,20 +48,25 @@ Because of the impossibility of studying perpetually-changing conditions of the 
 
 Computational reproducibility considers scientific practice that relies on computational methods to produce results. Simply put, it is the ability to use the original data and code to produce identical results as those of the original study.
 
-The discovery of a single flaw in programming scripts used to analyze chemistry data called into question over 100 published studies. The issue was a module included in the script that required use of a specific operating system to execute calculations to produce the correct results. Researchers realized this only when they noticed inconsistent results when running the scripts in different computing environments. The inconsistencies, which demonstrate computational irreproducibility, were significant enough to prompt researchers to revisit the results of their published studies.
+The discovery of a single flaw in programming scripts used to analyze chemistry data called into question over 100 published studies. The issue was a module included in the script that required use of a specific operating system to execute calculations to produce the correct results. Researchers realized this only when they noticed inconsistent results when running the scripts in different computing environments. The inconsistencies, which demonstrate computational irreproducibility, were significant enough to prompt researchers to reconsider the results of their published studies.
+<br>
+<br>
+<br>
+**Read Stodden’s article that defines the various types of reproducibility:**  
+Stodden, V. (2015). Reproducing statistical results. *Annual Review of Statistics and Its Application, 2*(1), 1–19. [https://doi.org/10.1146/annurev-statistics-010814-020127](https://doi.org/10.1146/annurev-statistics-010814-020127)
 
 > ## Reproducibility vs. Replicability
 >
 > In discussions of reproducibility, you also may have seen the term replicability used to describe any one of the three definitions provided above.  The terms reproducibility and replicability have been used interchangeably and with conflating definitions, ultimately obfuscating their intended meanings.  However, it does seem that the scientific community is converging on clearer definitions that capture the nuances of these related terms.
 >
-> A recent report published by the National Academies of Sciences, Engineering and Medicine (2019) makes a clear distinction between reproducibility and replicability as a means to resolve ambiguities in the use of these and related terms.  Their definitions are below as presented in the report:
-> 
+> A recent report published by the National Academies of Sciences, Engineering and Medicine (2019) makes a clear distinction between reproducibility and replicability as a means to resolve ambiguities in the use of these and related terms.  Their definitions are below as presented in the report:  
+>   <br>
 > > *Reproducibility* is obtaining consistent results using the same input data; computational steps, methods, and code; and conditions of analysis. This definition is synonymous with “computational reproducibility[.]”
 > >
 > > *Replicability* is obtaining consistent results across studies aimed at answering the same scientific question, each of which has obtained its own data (p. 46).
 >
-> Read the full report here:<br>
-> **National Academies of Sciences, Engineering, and Medicine. (2019). *Reproducibility and replicability in science*. National Academies Press. [https://doi.org/10.17226/25303](https://doi.org/10.17226/25303)**
+> **Read the full report here:**  
+> National Academies of Sciences, Engineering, and Medicine. (2019). *Reproducibility and replicability in science*. National Academies Press. [https://doi.org/10.17226/25303](https://doi.org/10.17226/25303)
 {: .callout}
 
 The following challenge offers an opportunity to apply the definitions of the three types of reproducibility to real-world scenarios. Exploring these scenarios will help to solidify our understanding of the nuances among the reproducibility types and their definitions, and to see how irreproducibility can play out.
@@ -102,21 +107,36 @@ The following challenge offers an opportunity to apply the definitions of the th
 >
 > Qualitative research methodologies do not rely on analyses of quantitatively measurable variables (other than research that transforms qualitatively derived data into quantitatively analyzable data, e.g., text mining, natural language processing), which is why some scholars have argued that reproducibility standards do not or cannot apply to qualitative research. There is no doubt, however, that findings from qualitative studies must be subject to the same level of scrutiny as those produced by their quantitative counterparts. Certainly, the credibility of qualitative research is just as important as the credibility of quantitative research.  Assessing the reproducibility of qualitative research is conceivable, albeit with a focus on **transparency**.
 > 
-> Considering the more constructivist nature of most qualitative research (in contrast to positivist quantitative research), assessments of research integrity emphasize production transparency and analytic transparency.  Production transparency requires that the processes for research participant selection, data collection, and analytic interpretation—and the decisions that informed these processes—be documented in explicit detail.  Analytic transparency demands clear descriptions and explanations of the methods and logic used to draw conclusions from the data.  For qualitative research, a high degree of production and analytic transparency is prerequisite for demonstrating research rigor and credibility.
+> Considering the more constructivist nature of most qualitative research (in contrast to positivist quantitative research), assessments of research integrity emphasize *production transparency* and *analytic transparency*.  Production transparency requires that the processes for research participant selection, data collection, and analytic interpretation—and the decisions that informed these processes—be documented in explicit detail.  Analytic transparency demands clear descriptions and explanations of the methods and logic used to draw conclusions from the data.  For qualitative research, a high degree of production and analytic transparency is prerequisite for demonstrating research rigor and credibility.
 >
+> <br>
 > Read more about reproducibility and transparency in qualitative research here:<br>
 > **Elman, C., Kapiszewski, D., & Lupia, A. (2018). Transparent social inquiry: Implications for social science. *Annual Review of Political Science, 21*, 29–47. [https://doi.org/10.1146/annurev-polisci-091515-025429](https://doi.org/10.1146/annurev-polisci-091515-025429)**
 > 
 > **TalkadSukumar, P., & Metoyer, R. (2019). Replication and transparency of qualitative research from a constructivist perspective [Preprint]. Open Science Framework. [https://doi.org/10.31219/osf.io/6efvp](https://doi.org/10.31219/osf.io/6efvp)**
 {: .callout}
 
+## The Impetus for Scientific Reproducibility
+
+To appreciate the importance of scientific reproducibility, consider the belief that autism is linked to vaccines. This notion first appeared in a 1998 article by Andrew Wakefield and his colleagues, who reported results of a study of a small group of children who had received the MMR vaccine and were later diagnosed with autism.  A subsequent examination of the study protocols and data from health records, however, revealed that no interpretation of the data could have reasonably concluded that instances of autism diagnoses were linked to the vaccine. The Wakefield articles eventually were retracted by the *Lancet* journal that published them, and Wakefield was found guilty of scientific misconduct and fraud.  Our understanding of the relationship between autism and vaccines is more reliably supported by the many studies and meta-analyses of studies on the subject that have consistently shown that vaccines do not cause autism. 
+
+For scientific claims to be credible, they must be able to stand up to scrutiny, which is a hallmark of science. The scientific community promotes the credibility of its claims through systems of peer review and research replication. Confirmation of the reproducibility of research results adds another necessary element of research checks and balances, particularly with scientific research increasingly becoming computationally intensive.  **The ability of a researcher to obtain and use the data and analysis code from the author of published scientific findings to reproduce those findings independently is an essential standard by which the scientific community can judge the integrity of the scientific record.** 
+
+Despite the vaccine-autism link having been disproven, Wakefield’s research continues to be cited in anti-vaccine campaigns that spread misinformation and disinformation about so-called dangers of vaccines.  Such campaigns have contributed to vaccine hesitancy, which has hindered public health initiatives to reduce the spread of pandemic diseases through vaccination. This example underscores the importance of recent calls for reproducibility as a precondition of scientific publication.
+<br>
+<br>
+**Read more about the impact of Wakefield’s debunked research here:**  
+Motta, M., & Stecula, D. (2021). Quantifying the effect of Wakefield et al. (1998) on skepticism about MMR vaccine safety in the U.S. *PLOS ONE, 16*(8), e0256395. [https://doi.org/10.1371/journal.pone.0256395](https://doi.org/10.1371/journal.pone.025639) 
+
+Ullah, I., Khan, K. S., Tahir, M. J., Ahmed, A., & Harapan, H. (2021). Myths and conspiracy theories on vaccines and COVID-19: Potential effect on global vaccine refusals. *Vacunas, 22*(2), 93–97. [https://doi.org/10.1016/j.vacun.2021.01.001](https://doi.org/10.1016/j.vacun.2021.01.001)
+
 ## The Reproducibility Mandate
 
 There are plenty of high-profile examples of research that were found to be irreproducible, prompting the question of whether or not science is experiencing a “reproducibility crisis.”  Recent studies to determine the extent to which published research is or is not reproducible have been concerning to many given that investigators were unable to successfully reproduce findings from a significant portion of the published research examined by investigators.
 
-In a 2016 survey conducted by the journal Nature, researchers were asked if there was a reproducibility crisis in science.  Of the 1,576 who responded to the survey, 90% agreed that there was at least a slight crisis. 70% conceded that they were unable to reproduce a study conducted by another scientist, with over half admitting to being unable to reproduce a study that they, themselves, conducted!
+In a [2016 survey conducted by the journal *Nature*](https://doi.org/10.1038/533452a), researchers were asked if there was a reproducibility crisis in science.  Of the 1,576 who responded to the survey, 90% agreed that there was at least a slight crisis. 70% conceded that they were unable to reproduce a study conducted by another scientist, with over half admitting to being unable to reproduce a study that they, themselves, conducted!
  
-The reasons for irreproducibility are plenty, but the issues that appear quite often are the result of scientific practices that overlook the data management and curation activities: missteps in analysis workflows due to gaps in documentation, ethical and/or legal violations of non-anonymized human subjects data or redistribution of restricted proprietary data, code execution failures because of computing environment mismatches, inconsistent analysis outputs from use of the wrong data file versions, and lack of access of data and code to reproduce results. Despite these seemingly minor issues, the repercussions can be serious.
+**The reasons for irreproducibility are plenty, but the issues that appear quite often are the result of scientific practices that overlook the data management and curation activities**: missteps in analysis workflows due to gaps in documentation, ethical and/or legal violations of non-anonymized human subjects data or redistribution of restricted proprietary data, code execution failures because of computing environment mismatches, inconsistent analysis outputs from use of the wrong data file versions, and lack of access of data and code to reproduce results. Despite these seemingly minor issues, the repercussions can be serious.
 
 > ## Yet Another Term: “Preproducibility”
 >
@@ -126,7 +146,6 @@ The reasons for irreproducibility are plenty, but the issues that appear quite o
 > **Stark, P. B. (2018). Before reproducibility must come preproducibility. *Nature, 557*(7707), 613–613. [https://doi.org/10.1038/d41586-018-05256-0](https://doi.org/10.1038/d41586-018-05256-0)**
 {: .callout}
 
-<br>
 Perhaps with the so-called reproducibility crisis in mind, various research stakeholders have taken steps to promote and protect the integrity of scientific research by issuing policies and/or guidelines that require researchers to perform data management tasks to ensure data are accessible and usable. 
 
 ### Funding Agencies
@@ -147,10 +166,10 @@ As stewards of the scientific record, journals bear responsibility for ensuring 
 
 | Scholarly Journal | Summary |
 | ----------------- | ------- |
-| [American Journal of Political Science (AJPS)](https://ajps.org/ajps-verification-policy/) | "The corresponding author of a manuscript that is accepted for publication in the American Journal of Political Science must provide materials that are sufficient to enable interested researchers to verify all of the analytic results that are reported in the text and supporting materials...When the draft of the manuscript is submitted, the materials will be verified to confirm that they do, in fact, reproduce the analytic results reported in the article." |
+| [American Journal of Political Science (AJPS)](https://ajps.org/ajps-verification-policy/) | "The corresponding author of a manuscript that is accepted for publication in the *American Journal of Political Science* must provide materials that are sufficient to enable interested researchers to verify all of the analytic results that are reported in the text and supporting materials...When the draft of the manuscript is submitted, the materials will be verified to confirm that they do, in fact, reproduce the analytic results reported in the article." |
 | [American Economic Association (AEA) Journals](https://www.aeaweb.org/journals/data/data-code-policy) | "Authors of accepted papers that contain empirical work, simulations, or experimental work must provide, prior to acceptance, information about the data, programs, and other details of the computations sufficient to permit replication, as well as information about access to data and programs...The AEA Data Editor will assess compliance with this policy, and will verify the accuracy of the information prior to acceptance by the Editor." |
 | [eLife](https://reviewer.elifesciences.org/author-guide/journal-policies) | "Regardless of whether authors use original data or are reusing data available from public repositories, they must provide program code, scripts for statistical packages, and other documentation sufficient to allow an informed researcher to precisely reproduce all published results." |
-| [Personality Science](https://ps.psychopen.eu/index.php/ps/open-science) | "Personality Science (PS) takes good, transparent, reproducible, and open science very seriously. This means that all published papers will have underwent screening regarding to what extent they have fulfilled Transparency and Openness Promotion (TOP) Guidelines." |
+| [Personality Science](https://ps.psychopen.eu/index.php/ps/open-science) | "*Personality Science* (PS) takes good, transparent, reproducible, and open science very seriously. This means that all published papers will have underwent screening regarding to what extent they have fulfilled Transparency and Openness Promotion (TOP) Guidelines." |
 | [Science](https://www.science.org/content/page/science-journals-editorial-policies#research-standards) | "All data used in the analysis must be available to any researcher for purposes of reproducing or extending the analysis...In general, all computer code central to the findings being reported should be available to readers to ensure reproducibility...Materials/samples used in the analysis must be made available to any researcher for purposes of directly replicating the procedure." |
 
 ### Academic Societies
