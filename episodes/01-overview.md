@@ -51,11 +51,10 @@ Computational reproducibility considers scientific practice that relies on compu
 The discovery of a single flaw in programming scripts used to analyze chemistry data called into question over 100 published studies. The issue was a module included in the script that required use of a specific operating system to execute calculations to produce the correct results. Researchers realized this only when they noticed inconsistent results when running the scripts in different computing environments. The inconsistencies, which demonstrate computational irreproducibility, were significant enough to prompt researchers to reconsider the results of their published studies.
 <br>
 <br>
-<br>
 **Read Stodden’s article that defines the various types of reproducibility:**  
 Stodden, V. (2015). Reproducing statistical results. *Annual Review of Statistics and Its Application, 2*(1), 1–19. [https://doi.org/10.1146/annurev-statistics-010814-020127](https://doi.org/10.1146/annurev-statistics-010814-020127)
 
-> ## Reproducibility vs. Replicability
+> ## Spotlight: Reproducibility vs. Replicability
 >
 > In discussions of reproducibility, you also may have seen the term replicability used to describe any one of the three definitions provided above.  The terms reproducibility and replicability have been used interchangeably and with conflating definitions, ultimately obfuscating their intended meanings.  However, it does seem that the scientific community is converging on clearer definitions that capture the nuances of these related terms.
 >
@@ -71,7 +70,7 @@ Stodden, V. (2015). Reproducing statistical results. *Annual Review of Statistic
 
 The following challenge offers an opportunity to apply the definitions of the three types of reproducibility to real-world scenarios. Exploring these scenarios will help to solidify our understanding of the nuances among the reproducibility types and their definitions, and to see how irreproducibility can play out.
 
-> ## Reproducibility, Reproducibility, Reproducibility
+> ## Exercise: Reproducibility, Reproducibility, Reproducibility
 >
 > Read the descriptions of real-life instances in which published research findings were discovered to be non-reproducible. Based on the definitions of reproducibility types, determine which—**empirical**, **statistical**, or **computational**—applies to the scenario in each description.
 > 
@@ -103,17 +102,17 @@ The following challenge offers an opportunity to apply the definitions of the th
 > {: .solution}
 {: .challenge}
 
-> ## What About Qualitative Research?
+> ## Spotlight: What About Qualitative Research?
 >
 > Qualitative research methodologies do not rely on analyses of quantitatively measurable variables (other than research that transforms qualitatively derived data into quantitatively analyzable data, e.g., text mining, natural language processing), which is why some scholars have argued that reproducibility standards do not or cannot apply to qualitative research. There is no doubt, however, that findings from qualitative studies must be subject to the same level of scrutiny as those produced by their quantitative counterparts. Certainly, the credibility of qualitative research is just as important as the credibility of quantitative research.  Assessing the reproducibility of qualitative research is conceivable, albeit with a focus on **transparency**.
 > 
 > Considering the more constructivist nature of most qualitative research (in contrast to positivist quantitative research), assessments of research integrity emphasize *production transparency* and *analytic transparency*.  Production transparency requires that the processes for research participant selection, data collection, and analytic interpretation—and the decisions that informed these processes—be documented in explicit detail.  Analytic transparency demands clear descriptions and explanations of the methods and logic used to draw conclusions from the data.  For qualitative research, a high degree of production and analytic transparency is prerequisite for demonstrating research rigor and credibility.
 >
 > <br>
-> Read more about reproducibility and transparency in qualitative research here:<br>
-> **Elman, C., Kapiszewski, D., & Lupia, A. (2018). Transparent social inquiry: Implications for social science. *Annual Review of Political Science, 21*, 29–47. [https://doi.org/10.1146/annurev-polisci-091515-025429](https://doi.org/10.1146/annurev-polisci-091515-025429)**
+> **Read more about reproducibility and transparency in qualitative research here:**<br>
+> Elman, C., Kapiszewski, D., & Lupia, A. (2018). Transparent social inquiry: Implications for social science. *Annual Review of Political Science, 21*, 29–47. [https://doi.org/10.1146/annurev-polisci-091515-025429](https://doi.org/10.1146/annurev-polisci-091515-025429)
 > 
-> **TalkadSukumar, P., & Metoyer, R. (2019). Replication and transparency of qualitative research from a constructivist perspective [Preprint]. Open Science Framework. [https://doi.org/10.31219/osf.io/6efvp](https://doi.org/10.31219/osf.io/6efvp)**
+> TalkadSukumar, P., & Metoyer, R. (2019). Replication and transparency of qualitative research from a constructivist perspective [Preprint]. Open Science Framework. [https://doi.org/10.31219/osf.io/6efvp](https://doi.org/10.31219/osf.io/6efvp)
 {: .callout}
 
 ## The Impetus for Scientific Reproducibility
@@ -138,7 +137,7 @@ In a [2016 survey conducted by the journal *Nature*](https://doi.org/10.1038/533
  
 **The reasons for irreproducibility are plenty, but the issues that appear quite often are the result of scientific practices that overlook the data management and curation activities**: missteps in analysis workflows due to gaps in documentation, ethical and/or legal violations of non-anonymized human subjects data or redistribution of restricted proprietary data, code execution failures because of computing environment mismatches, inconsistent analysis outputs from use of the wrong data file versions, and lack of access of data and code to reproduce results. Despite these seemingly minor issues, the repercussions can be serious.
 
-> ## Yet Another Term: “Preproducibility”
+> ## Spotlight: Yet Another Term: “Preproducibility”
 >
 > In a 2018 article published in the journal Nature, Phillip Stark offered another term for consideration for use in discussions of reproducibility:  **preproducibility**.  He wrote, “An experiment or analysis is preproducible if it has been described in adequate detail for others to undertake it.  Preproducibility is a prerequisite for reproducibility…” (p. 613).  The question of reproducibility, according to Stark, is irrelevant if documentation of research methods and protocols are insufficient or unavailable.  Stark declared his unequivocal stance on the subject, declining to review any manuscript that is not preproducible.   
 > 

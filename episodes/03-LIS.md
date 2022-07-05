@@ -32,7 +32,7 @@ The **“data savvy librarian”** is one who can execute data curation for repr
 
 The diagram below illustrates how various areas of skills and knowledge apply to primary components of data curation for reproducibility as they are defined by the Data Quality Review Framework (see Lesson 2 for an in depth discussion of each component of the Data Quality Review Framework).
 
-<img src="/fig/03-cure-skills.png" alt="Data savvy librarian skillsets" width="700" title="Diagram of skills and knowledge necessary to perform data curation for reproducibility tasks">
+![Diagram of skills and knowledge necessary to perform data curation for reproducibility tasks]({{ page.root }}/fig/03-cure-skills.png "Diagram of skills and knowledge necessary to perform data curation for reproducibility tasks")
 
 **Read more about the data savvy librarian and their role in supporting scientific reproducibility:**  
 Barbaro, A. (2016). On the importance of being a data-savvy librarian. *JEAHIL, 12*(1), 25–27. [http://ojs.eahil.eu/ojs/index.php/JEAHIL/article/view/100/104](http://ojs.eahil.eu/ojs/index.php/JEAHIL/article/view/100/104)  
@@ -47,7 +47,7 @@ Pryor, G., & Donnelly, M. (2009). Skilling up to do data: Whose role, whose resp
 
 Sawchuk, S. L., & Khair, S. (2021). Computational reproducibility: A practical framework for data curators. *Journal of eScience Librarianship, 10*(3), 1206. [https://doi.org/10.7191/jeslib.2021.1206](https://doi.org/10.7191/jeslib.2021.1206)
 
-> ##  CuRe Career Pathways
+> ## Spotlight: CuRe Career Pathways
 >
 > Curating for reproducibility requires a set of skills that are rare for any one person to have.  [Pryor and Donnelly (2009)](https://doi.org/10.2218/ijdc.v4i2.105) remarked that careers in data curation are often “accidental” in the absence of established career pathways.  Indeed, how people obtain the skills to fill professional roles that include data curation for reproducibility responsibilities can be very different.  Consider these examples:
 >
@@ -81,7 +81,7 @@ The Odum Institute for Research in Social Science at the University of North Car
 
 While the Odum Institute Data Archive has been curating research data to support discovery, access, and reuse since 1969, the archive has recently expanded its service model to include comprehensive data quality review. The Odum Institute provides this data review service to journals that wish to add a verification component to their data sharing policies. The Odum Institute model of curating data for reproducibility as a cost-based service to journals exemplifies a convergence of stakeholders around the principles of research transparency and reproducibility.
 
-> ## CuRe Implementers
+> ## Discussion: CuRe Implementers
 >
 > Visit the website for an organization below or any other organization that has implemented data curation for reproducibility services and/or workflows.  Based on the information presented on the website, discuss the following: 
 > - **Overall mission of the organization** 
@@ -113,7 +113,7 @@ While the Odum Institute Data Archive has been curating research data to support
 
 Talking to others about the importance and benefits of curating for reproducibility can be intimidating when put on the spot, especially when asked to speak it for the first time. Taking time to think through what services look like or could look like at your institution can go a long way to articulating your ideas effectively.  Be strategic, have fun, and get others as excited with your understanding and commitment to reproducibility by meeting others where they are.
 
-> ## Elevator Pitch
+> ## Exercise: Elevator Pitch
 >
 > Using what you have learned about reproducibility, its importance and how the LIS profession is well situated to support researchers with curating for reproducibility, spend 5-10 minutes drafting an elevator pitch about piloting a service to your colleague, supervisor, or dean. What will you want to get across with just a few minutes of their time? As you draft your pitch consider the following:
 >

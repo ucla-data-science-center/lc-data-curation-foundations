@@ -29,7 +29,7 @@ Accessibility and usability of the materials necessary to reproduce reported res
 King, G. (1995). Replication, replication. *PS: Political Science & Politics, 28*(3), 444–452. [https://doi.org/10.2307/420301](https://doi.org/10.2307/420301)
 
 
-> ## FAIR(eR) Principles
+> ## Spotlight: FAIR Principles
 >
 > Mention of the FAIR Principles has become ubiquitous in discussions of research data management.  Some funding agencies have even cited the FAIR Principles in documents that provide guidance for their data management policies.  FAIR, which stands for findable, accessible, interoperable, and reusable, was developed as a set of guiding principles that help to sustain and enhance the value of data for scientific discovery, knowledge-making, and innovation, while avoiding the technical obstacles that can challenge those goals. 
 >
@@ -75,7 +75,7 @@ The first known mention of the research compendium concept appeared in an articl
 
 To put it more simply for this Curating for Reproducibility curriculum, **we refer to the research compendium as the collection of the research artifacts necessary to independently understand and repeat the entirety of the analysis workflow from data processing and transformation to producing results**.
 
-<img src="/fig/02-compendium.png" alt="Research compendium components" width="350" title="Research Compendium components">
+![Research compendium components]({{ page.root }}/fig/02-compendium.png "Research compendium components")
 
 At a minimum, the research compendium, which may also referred to as reproducibility file bundle or reproducibility package as we define it, contains the following research artifacts:
 
@@ -85,7 +85,7 @@ At a minimum, the research compendium, which may also referred to as reproducibi
 
 The research compendium supports the reproducibility standard by providing access to all of the information, materials and tools necessary to independently reproduce the associated results.  Curating for reproducibility applies curation actions to the research compendium.
 
-> ## Curating for Reproducibility: Beyond Data
+> ## Spotlight: Curating for Reproducibility: Beyond Data
 >
 > Curating for reproducibility requires that we think beyond data as the singular object of curation.  When considered alone, data that are free of errors, clean of personally identifiable information, and well-documented may be deemed high-quality. 
 >
@@ -102,16 +102,16 @@ Curation in support of scientific research has centered commonly on data curatio
 
 The other important concept in data curation is **reuse**.  Motivations for reuse of extant data are varied and include data verification, new analysis, re-analysis, or meta-analysis. Reproduction of original analysis and results, which is the focus of this curriculum, is a type of reuse that sets an even higher bar for quality because it requires that code and detailed documentation--not only the data--to be curated and packaged into a research compendium to allow regeneration of corresponding published results.  
 
-> ## 10 Things for Curating Reproducible and FAIR Research
+> ## Spotlight: 10 Things for Curating Reproducible and FAIR Research
 > 
 > The measures used to determine the quality of a research compendium intended to be used to reproduce reported results are described in the ***10 Things for Curating Reproducible and FAIR Research***.  The 10 Things, summarized below are the output of the Research Data Alliance's CURE-FAIR Working Group. This international community of information professionals, researchers, funding agencies, publishers, and others interested in promoting reproducibility practices worked together to identify and describe specific requirements for making research reproducible. 
-> <img src="/fig/02-10things.png" alt="10 Things for Curating Reproducible and FAIR Research" width="1000" title="10 Things for Curating Reproducible and FAIR Research">
+> ![10 Things for Curating Reproducible and FAIR Research]({{ page.root }}/fig/02-10things.png "10 Things for Curating Reproducible and FAIR Research")
 > CURE-FAIR Working Group. (2022). 10 things for curating reproducible and FAIR research. Research Data Alliance. [https://doi.org/10.15497/RDA00074](https://doi.org/10.15497/RDA00074)
 {: .callout}
 
 Knowing what makes research reproducible allows us to recognize research that is not reproducible. The next challenge revisits the scenarios from the [challenge in the previous episode]({{ page.root}}/01-overview/#reproducibility-reproducibility-reproducibility) to get us thinking about the causes of irreproducibility and their potential consequences.
 
-> ## The Impact of Irreproducibility
+> ## Exercise: The Impact of Irreproducibility
 >
 > Consider again the three scenarios from the exercise in [Episode 1 (“Reproducibility, Reproducibility, Reproducibility”)]({{ page.root}}/01-overview/#reproducibility-reproducibility-reproducibility).  Provide responses to the following questions about each scenario.
 >
@@ -152,18 +152,18 @@ Reproducible research requires the availability of code written using literate p
 <br>
 Are these challenges insurmountable?  Not always.  In many cases, strategies exist that account for these challenges to make it possible to still uphold reproducibility standards.  In [Lesson 4: Compendium Packaging]() and throughout the Curating for Reproducibility Curriculum, you will learn about these strategies and how to apply them to special cases involving technical complexities, sensitive human subjects data, and restricted proprietary data.
 
-> ## A Reproducibility Dare
+> ## Spotlight: A Reproducibility Dare
 >
 > When Nicolas Rougier and Konrad Hinsen, the originators of the [Ten Years Reproducibility Challenge](https://rescience.github.io/ten-years/), issued an invitation to researchers to find the code they used to generate results presented in any article published before 2010 and then use the unedited code to reproduce the results, they suspected that few would succeed. 
 > 
-> ![image description]({{ page.root }}/fig/image.jpg "alt text")
+> ![Ten Years Reproducibility Challenge]({{ page.root }}/fig/02-10years-challenge.png "Ten Years Reproducibility Challenge flyer")
 >
 > Ten years is considered an eternity when it comes to the longevity of computations. Rapidly changing technologies render hardware and software obsolete, and evolving computational approaches relegate once novel programming languages to outdated status--in significantly less time than ten years. The 35 entrants confirmed this to be the case, having to resort to using hardware emulators or purchases from online vendors to obtain old hardware, reaching into the depths of memory to revive fading programming language fluency, and confronting poor coding practices that have since been remedied by subsequent years of experience. The difficulty of the challenge cannot be overstated.
 >
 > One crucial takeaway that participants noted was the importance of documentation to preserve the critical information about where to locate the code, what hardware and software are needed to replicate the original computing environment, and how to run the code to successfully generate expected outputs. While constantly evolving technology can make reproducibility elusive, comprehensive documentation is the key to making it at all possible.
 >
-> Learn more about the Ten Years Reproducibility Challenge here:<br>
-> **Perkel, J. M. (2020). Challenge to scientists: Does your ten-year-old code still run? *Nature, 584*(7822), 656–658. [https://doi.org/10.1038/d41586-020-02462-7](https://doi.org/10.1038/d41586-020-02462-7)** 
+> **Learn more about the Ten Years Reproducibility Challenge here:**<br>
+> Perkel, J. M. (2020). Challenge to scientists: Does your ten-year-old code still run? *Nature, 584*(7822), 656–658. [https://doi.org/10.1038/d41586-020-02462-7](https://doi.org/10.1038/d41586-020-02462-7) 
 {: .callout}
 
 {% include links.md %}
