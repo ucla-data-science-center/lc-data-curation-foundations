@@ -5,7 +5,7 @@ exercises: 15
 questions:
 - "What is the role of the LIS professional in supporting reproducible research?"
 - "What are the requisite skills and knowledge for executing data curation for reproducibility workflows?"
-- In what ways can data curation for reproducibility activities be incorporated into services?"
+- "In what ways can data curation for reproducibility activities be incorporated into services?"
 objectives:
 - "Explain how curation for reproducibility differs from common models of data curation that focuses on data as the object of curation."
 - "Describe what it means to be a data savvy librarian."
