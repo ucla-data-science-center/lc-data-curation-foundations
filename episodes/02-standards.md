@@ -102,7 +102,7 @@ Curation in support of scientific research has centered commonly on data curatio
 
 **Independent understandability** is a key curation concept that refers to the ability of anyone unrelated to the production of the data to interpret and use the data without needing input from the original producer(s). That means that in order to enable reuse, data need to be processed, documented, shared, and preserved in a way that ensures that they are “independently understandable to (and usable by) the Designated Community” (a Designated Community is “an identified group of potential Consumers who should be able to understand a particular set of information….[it] is defined by the Archive and this definition may change over time,” ([CCSDS, 2012](http://public.ccsds.org/publications/archive/650x0m2.pdf))). 
 
-**Reusability**
+### Reusability
 
 The other important concept in data curation is **reusability**.  Motivations for reuse of extant data are varied and include data verification, new analysis, re-analysis, or meta-analysis. Reproduction of original analysis and results, which is the focus of this curriculum, is a type of reuse that sets an even higher bar for quality because it requires that code and detailed documentation--not only the data--to be curated and packaged into a research compendium to allow regeneration of corresponding published results.  
 
