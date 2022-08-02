@@ -30,7 +30,7 @@ To disambiguate these various meanings, we specify three types of reproducibilit
 
 **original methods + new data**
 
-Empirical reproducibility assumes the presence of comprehensive documentation of research methods and protocols for a research study that allows subsequent studies that apply the same research methods and protocols to collect and analyze data to yield results that corroborate those reported by the original investigators. 
+Empirical reproducibility assumes that there is comprehensive documentation of research methods and protocols to follow, and this allows for subsequent studies to follow those same research methods and protocols to collect and analyze data to yield results that corroborate those reported by the original investigators. 
 
 In animal studies, repeating experiments to demonstrate empirical reproducibility is expected. This requires standardization of experimental conditions to ensure that inconsistencies in study protocols are not the cause of inconsistencies in results. For mice experiments, this includes the use of lab-specified cage types and temperature, cage cleaning schedules, feeding protocols, etc.  Despite careful adherence to standards, it is known that one often overlooked detail can affect the empirical reproducibility of experimental results--the experimenter. For reasons yet to be fully understood, differences among experimenters such as gender and attitude may introduce enough variance in experimental conditions that are the cause of empirical irreproducibility.  
 
@@ -51,7 +51,7 @@ Computational reproducibility considers scientific practice that relies on compu
 The discovery of a single flaw in programming scripts used to analyze chemistry data called into question over 100 published studies. The issue was a module included in the script that required use of a specific operating system to execute calculations to produce the correct results. Researchers realized this only when they noticed inconsistent results when running the scripts in different computing environments. The inconsistencies, which demonstrate computational irreproducibility, were significant enough to prompt researchers to reconsider the results of their published studies.
 <br>
 <br>
-**Read Stodden’s article that defines the various types of reproducibility:**  
+**Suggested reading:**  
 Stodden, V. (2015). Reproducing statistical results. *Annual Review of Statistics and Its Application, 2*(1), 1–19. [https://doi.org/10.1146/annurev-statistics-010814-020127](https://doi.org/10.1146/annurev-statistics-010814-020127)
 
 > ## Spotlight: Reproducibility vs. Replicability
@@ -64,7 +64,7 @@ Stodden, V. (2015). Reproducing statistical results. *Annual Review of Statistic
 > >
 > > *Replicability* is obtaining consistent results across studies aimed at answering the same scientific question, each of which has obtained its own data (p. 46).
 >
-> **Read the full report here:**  
+> **Suggested reading:**  
 > National Academies of Sciences, Engineering, and Medicine. (2019). *Reproducibility and replicability in science*. National Academies Press. [https://doi.org/10.17226/25303](https://doi.org/10.17226/25303)
 {: .callout}
 
@@ -109,7 +109,7 @@ The following challenge offers an opportunity to apply the definitions of the th
 > Considering the more constructivist nature of most qualitative research (in contrast to positivist quantitative research), assessments of research integrity emphasize *production transparency* and *analytic transparency*.  Production transparency requires that the processes for research participant selection, data collection, and analytic interpretation—and the decisions that informed these processes—be documented in explicit detail.  Analytic transparency demands clear descriptions and explanations of the methods and logic used to draw conclusions from the data.  For qualitative research, a high degree of production and analytic transparency is prerequisite for demonstrating research rigor and credibility.
 >
 > <br>
-> **Read more about reproducibility and transparency in qualitative research here:**<br>
+> **Suggested readings:**<br>
 > Elman, C., Kapiszewski, D., & Lupia, A. (2018). Transparent social inquiry: Implications for social science. *Annual Review of Political Science, 21*, 29–47. [https://doi.org/10.1146/annurev-polisci-091515-025429](https://doi.org/10.1146/annurev-polisci-091515-025429)
 > 
 > TalkadSukumar, P., & Metoyer, R. (2019). Replication and transparency of qualitative research from a constructivist perspective [Preprint]. Open Science Framework. [https://doi.org/10.31219/osf.io/6efvp](https://doi.org/10.31219/osf.io/6efvp)
@@ -124,7 +124,7 @@ For scientific claims to be credible, they must be able to stand up to scrutiny,
 Despite the vaccine-autism link having been disproven, Wakefield’s research continues to be cited in anti-vaccine campaigns that spread misinformation and disinformation about so-called dangers of vaccines.  Such campaigns have contributed to vaccine hesitancy, which has hindered public health initiatives to reduce the spread of pandemic diseases through vaccination. This example underscores the importance of recent calls for reproducibility as a precondition of scientific publication.
 <br>
 <br>
-**Read more about the impact of Wakefield’s debunked research here:**  
+**Suggested readings:**  
 Motta, M., & Stecula, D. (2021). Quantifying the effect of Wakefield et al. (1998) on skepticism about MMR vaccine safety in the U.S. *PLOS ONE, 16*(8), e0256395. [https://doi.org/10.1371/journal.pone.0256395](https://doi.org/10.1371/journal.pone.025639) 
 
 Ullah, I., Khan, K. S., Tahir, M. J., Ahmed, A., & Harapan, H. (2021). Myths and conspiracy theories on vaccines and COVID-19: Potential effect on global vaccine refusals. *Vacunas, 22*(2), 93–97. [https://doi.org/10.1016/j.vacun.2021.01.001](https://doi.org/10.1016/j.vacun.2021.01.001)
@@ -139,13 +139,13 @@ In a [2016 survey conducted by the journal *Nature*](https://doi.org/10.1038/533
 
 > ## Spotlight: Yet Another Term: “Preproducibility”
 >
-> In a 2018 article published in the journal Nature, Phillip Stark offered another term for consideration for use in discussions of reproducibility:  **preproducibility**.  He wrote, “An experiment or analysis is preproducible if it has been described in adequate detail for others to undertake it.  Preproducibility is a prerequisite for reproducibility…” (p. 613).  The question of reproducibility, according to Stark, is irrelevant if documentation of research methods and protocols are insufficient or unavailable.  Stark declared his unequivocal stance on the subject, declining to review any manuscript that is not preproducible.   
+> In a 2018 article published in the journal *Nature*, Phillip Stark offered another term for consideration for use in discussions of reproducibility:  **preproducibility**.  He wrote, “An experiment or analysis is preproducible if it has been described in adequate detail for others to undertake it.  Preproducibility is a prerequisite for reproducibility…” (p. 613).  The question of reproducibility, according to Stark, is irrelevant if documentation of research methods and protocols are insufficient or unavailable.  Stark declared his unequivocal stance on the subject, declining to review any manuscript that is not preproducible.   
 > 
 > Read the article that introduces the concept of preproducibility here:<br>
 > **Stark, P. B. (2018). Before reproducibility must come preproducibility. *Nature, 557*(7707), 613–613. [https://doi.org/10.1038/d41586-018-05256-0](https://doi.org/10.1038/d41586-018-05256-0)**
 {: .callout}
 
-Perhaps with the so-called reproducibility crisis in mind, various research stakeholders have taken steps to promote and protect the integrity of scientific research by issuing policies and/or guidelines that require researchers to perform data management tasks to ensure data are accessible and usable. 
+Perhaps with the so-called reproducibility crisis in mind, various research stakeholders have taken steps to promote and protect the integrity of scientific research by issuing policies and/or guidelines that require researchers to perform data management tasks to ensure data are accessible and usable. This includes the funding agencies that support research initiatives, scholarly journals that publish the scientific record, and academic societies that establish standards for research conduct. 
 
 ### Funding Agencies
 
