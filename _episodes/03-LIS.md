@@ -34,7 +34,7 @@ The diagram below illustrates how various areas of skills and knowledge apply to
 
 ![Diagram of skills and knowledge necessary to perform data curation for reproducibility tasks]({{ page.root }}/fig/03-cure-skills.png "Diagram of skills and knowledge necessary to perform data curation for reproducibility tasks")
 
-**Read more about the data savvy librarian and their role in supporting scientific reproducibility:**  
+**(Optional) Read more about the data savvy librarian and their role in supporting scientific reproducibility:**  
 Barbaro, A. (2016). On the importance of being a data-savvy librarian. *JEAHIL, 12*(1), 25–27. [http://ojs.eahil.eu/ojs/index.php/JEAHIL/article/view/100/104](http://ojs.eahil.eu/ojs/index.php/JEAHIL/article/view/100/104)  
 
 Burton, M., Lyon, L., Erdmann, C., & Tijerina, B. (2018). Shifting to data savvy: The future of data science in libraries. University of Pittsburgh. [http://d-scholarship.pitt.edu/id/eprint/33891](http://d-scholarship.pitt.edu/id/eprint/33891)  
@@ -64,7 +64,7 @@ Sawchuk, S. L., & Khair, S. (2021). Computational reproducibility: A practical f
 
 Founded in 1947, the Roper Center is considered to be one of the earliest examples of an institution formalizing specific activities around data preservation and dissemination.  Despite growth in the number of organizations dedicated to providing long-term access to research data assets, data curation is still early in its maturity as an established discipline.  Data curation for reproducibility is an even more undeveloped area, with few individuals and groups actively engaged in the practice.  
 
-Those that have implemented data curation for reproducibility services can serve as models for academic libraries, data repositories, research institutions, and other groups planning to expand their services to support reproducibility.  
+Those that have implemented data curation for reproducibility services can serve as models for academic libraries, data repositories, research institutions, and other groups planning to expand their services to support reproducibility.  The three institutions highlighted below offer examples of how data curation for reproducibility services can be delivered.
 
 ### Institution for Social and Political Studies, Yale University 
 The Institution for Social and Policy Studies (ISPS) was established in 1968 by the Yale Corporation as an interdisciplinary center at the university to facilitate research in the social sciences and public policy arenas. ISPS is an independent academic unit within the university, including affiliates from across the social sciences. ISPS hosts its own digital repository meant to capture and preserve the intellectual output of and the research produced by scholars affiliated with ISPS, and strives to serve as a model for sharing and preserving research data by implementing the ideals of scientific reproducibility and transparency.
@@ -111,7 +111,7 @@ While the Odum Institute Data Archive has been curating research data to support
 > [https://arcs.uflib.ufl.edu/services/reproducibility/](https://arcs.uflib.ufl.edu/services/reproducibility/)
 {: .discussion}
 
-Talking to others about the importance and benefits of curating for reproducibility can be intimidating when put on the spot, especially when asked to speak it for the first time. Taking time to think through what services look like or could look like at your institution can go a long way to articulating your ideas effectively.  Be strategic, have fun, and get others as excited with your understanding and commitment to reproducibility by meeting others where they are.
+Talking to others about the importance and benefits of curating for reproducibility can be intimidating when put on the spot, especially when asked to speak about it for the first time. Taking time to think through what services look like or could look like at your institution can go a long way to articulating your ideas effectively.  Be strategic, have fun, and get others as excited with your understanding and commitment to reproducibility by meeting others where they are.
 
 > ## Exercise: Elevator Pitch
 >
