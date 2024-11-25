@@ -33,7 +33,7 @@ life_cycle: 'pre-alpha'
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/fishtree-attempt/lc-cure-01-transition/'
+source: 'https://github.com/curating4reproducibility/lc-cure-01-transition'
 
 # Default branch of your lesson
 branch: 'main'
@@ -85,7 +85,6 @@ profiles:
 
 
 carpentry_description: Lesson Description
-url: https://preview.carpentries.org/lc-cure-01-transition
+url: 'https://curating4reproducibility.github.io/lc-cure-01-transition'
 analytics: carpentries
 lang: en
-workbench-beta: yes
