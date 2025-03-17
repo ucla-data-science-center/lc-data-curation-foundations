@@ -1,3 +1,5 @@
+Moved to: <https://librarycarpentry.github.io/lc-intro-data-curation/>
+
 # Introduction to Curating for Reproducibility
 
 This lesson introduces key concepts in reproducibility and data curation, laying the groundwork for understanding and managing research compendia. It is designed for research data support professionals and library and information science practitioners who are new to the ideas behind curating reproducible research.
